@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: rgb(190, 21, 21);
+    border: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.one1 {
+    text-align: left;
+    padding-left: 75%;
+    color: blue;
+}
+
+body {
+    background-color: skyblue;
+    padding: 10px;
+    background-image: url(https://senfil.net/uploads/posts/2014-09/1411206980_87654.jpg);
+}
+
+.main {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin: 10px;
+    padding-left: 0px;
+}
+
+
+
+.first:hover {
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+.wrap {
+    width: 75px;
+    height: 135px;
+    border: 5px solid greenyellow;
+    text-align: center;
+}
+
+.photo {
+    width: 76px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
